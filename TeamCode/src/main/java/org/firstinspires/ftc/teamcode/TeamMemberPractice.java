@@ -37,6 +37,7 @@ public class TeamMemberPractice extends OpMode {
         yAxis = squareInputWithSign(yAxis);
         telemetry.addData("lstick mod", yAxis);
 
+
     }
 
 }

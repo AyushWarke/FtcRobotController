@@ -3,6 +3,8 @@ package org.firstinspires.ftc.teamcode;
 public class RobotLocationPractice {
 
     double angle;
+    double x;
+    double y;
 
     // constructor:
     public RobotLocationPractice(double angle){
@@ -32,7 +34,33 @@ public class RobotLocationPractice {
     }
 
     public double getAngle(){
-        
+        return this.angle;
+
     }
 
+    public void changeX(double changeAmount){
+        x += changeAmount;
+
+    }
+
+    public void setX(double x){
+        this.x = x;
+
+    }
+
+    public double getX() {
+        return x;
+    }
+
+    public void changeY(double changeAmount){
+        y += changeAmount;
+    }
+
+    public void setY(double y){
+        this.y = y;
+    }
+
+    public double getY(){
+        return y;
+    }
 }
